@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Live comment</title>
+  </head>
+  <body>
+      <div class="container" id="app">
+           {% block content %}  {% endblock %}
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://js.pusher.com/4.1/pusher.min.js"></script>
+    <script src="{{ url_for('static', filename='custom.js')}}"></script>
+  </body>
+</html>

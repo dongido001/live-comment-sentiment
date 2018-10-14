@@ -1,0 +1,4 @@
+Flask==1.0.2
+python-dotenv==0.8.2
+pusher==2.0.1
+textblob==0.15.1
