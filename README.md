@@ -1,6 +1,6 @@
 # Build a live comment with sentiment analysis using Flask, Vue and Channels
 
-This is a demo application showing how to build a live comment with sentiment analysis using Flask, Channels and Vue. You can read the tutorial on how it was built [here]()
+This is a demo application showing how to build a live comment with sentiment analysis using Flask, Channels and Vue. You can read the tutorial on how it was built [here](https://pusher.com/tutorials/flask-vue-comments)
 
 ## Getting Started
 
@@ -78,4 +78,4 @@ To get the app running:
 
 * [Flask](http://flask.pocoo.org/) - A microframework for Python
 * [Pusher](https://pusher.com/) - APIs to enable devs building realtime features
-* [Vue](Front-end framework for building user interfaces)
+* [Vue](https://vuejs.org/) - Front-end framework for building user interfaces
